@@ -11,6 +11,8 @@ Create an algorithmic trading bot that learns and adapts to new data and evolvin
 ![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/Baseline_cumulative.png)
 - Conclusions : </br>
 ![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/classifier_1.png)
+Base on the higher recall this model is better predict 1 than -1, and the -1's recall almost equal to 0 that the prediction almost did nothing.
+
 
 ## Evaluate a New Machine Learning Classifier (Backtesting)
 - LogisticRegression
@@ -21,3 +23,4 @@ Create an algorithmic trading bot that learns and adapts to new data and evolvin
 	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/Ls_classification.png)
 
 	- Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm? </br>
+	The ls 1's precision is higher than the svc, and ls's F1 score is higher both 1 and -1 than SVC.
