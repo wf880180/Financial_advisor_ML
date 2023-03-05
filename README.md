@@ -61,8 +61,8 @@ Base on the higher recall this model is better predict 1 than -1, and the -1's r
 
 	- Conclusions : </br>
 	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/Classifier6monthSMA4_72.png)
-	
-	Compare to 6 month test case we want to improve the overall F1 score and recall, and this change did increase overall score. 
+
+	Compare to other cases we want to improve the overall score and cumulative, and this change did increase score and cumulative also higher.
 
 ## Evaluate a New Machine Learning Classifier (Backtesting)
 - LogisticRegression
