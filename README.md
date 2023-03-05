@@ -40,23 +40,29 @@ Base on the higher recall this model is better predict 1 than -1, and the -1's r
 		- short_window = 5
 		- long_window = 75
 	- cumulative product of the actual returns vs. the strategy returns.</br>
-	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/6monthSMA4_72_cumulative.png)	
+	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/6monthSMA5_75_cumulative.png)	
 
 	- Conclusions : </br>
-	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/Classifier6monthSMA4_72.png)
+	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/Classifier6monthSMA5_75.png)
 
 	Compare to 6 month test case we want to improve the overall F1 score and recall, and this change did increase overall score. 
 
-	- What impact resulted from increasing or decreasing either or both of the SMA windows?
+	- What impact resulted from increasing or decreasing either or both of the SMA windows?</br>
 	Both 1 and -1 accuracy hase increase with this parameter because the 1 and -1 test cases are more balance by decrease the band of SMA.
+
 - The better cumulative result:
 	- Start Day : 2015-04-02 15:00:00
 	- End Day : 2015-10-02 15:00:00
 	- SMA :
 		- short_window = 4
 		- long_window = 72
+	- cumulative product of the actual returns vs. the strategy returns.</br>
+	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/6monthSMA4_72_cumulative.png)	
+
 	- Conclusions : </br>
 	![alt text](https://github.com/wf880180/Financial_advisor_ML/blob/main/README_image/Classifier6monthSMA4_72.png)
+	
+	Compare to 6 month test case we want to improve the overall F1 score and recall, and this change did increase overall score. 
 
 ## Evaluate a New Machine Learning Classifier (Backtesting)
 - LogisticRegression
